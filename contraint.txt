@@ -1,0 +1,37 @@
+boiler plate code 
+start by making the skeleton of the code 
+
+eg.
+
+
+// include 
+
+// define
+
+// struct roach
+
+// functions declarations
+
+We will have three file
+
+
+regle de linking : main.exe: sdl2.o main.o
+
+compilation au sens strick :
+function.o: function.c sdl2.h
+	gcc -c function.c -o function.o -lm
+main.o: main.c sdl2.h
+	gcc -c main.c -o main.o
+
+le clean
+
+QUestion???
+
+- what is the :
+
+-> SDL_Flip()
+-> SDL_BlitSurface();
+-> SDL_Event();
+-> SDL_Surface();
+-> SDL_Quit();
+->SDL_SetColorKey();
